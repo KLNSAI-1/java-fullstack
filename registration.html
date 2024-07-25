@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <fieldset style="width: 60%;align-items:center">
+        <legend align="center">Registration Form</legend>
+        <table cellspacing="4" cellpadding="5" align="center">
+            <form action="form.html" target="_blank">
+                <tr>
+                    <td><label>Name:</label></td>
+                    <td><input type="text" autofocus placeholder="enter your name" ></td>
+                </tr>
+                <tr>
+                    <td><label>Father Name:</label></td>
+                    <td><input type="text" placeholder="enter your father name"></td>
+                </tr>
+                <tr>
+                    <td><label>Email<span style="color:red;"><sup>*</sup></span></label>:</td>
+                    <td><input type="email" placeholder="enter your email id" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" placeholder="enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label>Mobile:</label></td>
+                    <td><input type="number" placeholder="enter your mobile number"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="gender"><label for="">Male</label><input type="radio" name="gender"><label for="">Female</label><input type="radio" name="gender"><label for="">Others</label></td>
+                </tr>
+                <tr>
+                    <td><label>Branch:</label></td>
+                    <td>
+                        <select name="branch"><option value="CSE">CSE</option>
+                        <option value="CSM">CSM</option>
+                        <option value="CSD">CSD</option>
+                        <option value="ECE">ECE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Time:</label></td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">
+                    </td>
+                    <td><label>I Accept terms and Conditions.</label></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Submit</button>
+                    <button type="submit">Login</button></td>
+                </tr>
+            </form>
+        </table>
+    </fieldset>
+</body>
+</html>
